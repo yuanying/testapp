@@ -8,4 +8,5 @@ EXPOSE 4567
 
 COPY . /app
 
-CMD bundle exec ruby index.rb
+ENTRYPOINT ["bundle", "exec", "ruby", "index.rb"]
+CMD ["-o", "0.0.0.0"]
