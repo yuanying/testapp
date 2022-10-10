@@ -23,6 +23,6 @@ get '/' do
 
     str << "\n"
     str << "## Client IP Address\n"
-    str << "- #{request.ip}"
+    str << "- #{request.ip}\n"
   end.string
 end
