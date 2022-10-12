@@ -14,10 +14,10 @@ get '/' do
         str << intf.ip_address
         str << "\n"
       end
-      if intf.ipv6? && !intf.ipv6_loopback? && !intf.ipv6_multicast?
-        str << "- "
-        str << intf.ip_address
-        str << "\n"
+      # if intf.ipv6? && !intf.ipv6_loopback? && !intf.ipv6_multicast?
+      #   str << "- "
+      #   str << intf.ip_address
+      #   str << "\n"
       end
     end
 
