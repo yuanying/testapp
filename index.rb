@@ -18,7 +18,7 @@ get '/' do
       #   str << "- "
       #   str << intf.ip_address
       #   str << "\n"
-      end
+      # end
     end
 
     str << "\n"
